@@ -6,9 +6,9 @@ public class NumberGuessingGame {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
 
-        int lowerBound = 1;
+        int lowerBound = 0;
         int upperBound = 100;
-        int randomNumber = random.nextInt(upperBound - lowerBound + 1) + lowerBound;
+        int randomNumber = random.nextInt(upperBound);
         int maxAttempts = 10;
         int score = 0;
 
