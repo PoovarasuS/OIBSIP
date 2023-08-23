@@ -13,7 +13,7 @@ public class NumberGuessingGame {
         int score = 0;
 
         System.out.println("Welcome to the Number Guessing Game!");
-        System.out.println("I'm thinking of a number between " + lowerBound + " and " + upperBound);
+        System.out.println("I'm thinking of a number between " + lowerBound + " and " + upperBound-1);
         System.out.println("You have " + maxAttempts + " attempts.");
 
         for (int attempts = 1; attempts <= maxAttempts; attempts++) {
